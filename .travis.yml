@@ -1,7 +1,7 @@
 language: c
 env:
-- MATE=1.7
-- ATRIL=atril-1.7.90
+- MATE=1.7 ATRIL=atril-1.7.90
+# - MATE=1.19
 # - ATRIL=atril-1.19.0
 addons:
   apt:
