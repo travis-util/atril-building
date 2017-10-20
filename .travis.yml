@@ -16,6 +16,7 @@ addons:
     - mate-icon-theme
     - libsecret-1-dev
     - libpoppler-glib-dev
+    - itstool
     # - gcc-4.9
     # http://wiki.mate-desktop.com/building
     # - 
