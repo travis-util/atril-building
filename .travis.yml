@@ -12,3 +12,4 @@ install:
 - tar --xz --extract --file=atril-1.19.4.tar.xz
 - ls
 - cd atril-1.19.4
+- apt-cache policy intltool
