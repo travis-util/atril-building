@@ -9,6 +9,6 @@ addons:
     # - 
 install:
 - wget http://pub.mate-desktop.org/releases/1.19/atril-1.19.4.tar.xz
-- tar --xz xf atril-1.19.4.tar.xz
+- tar --xz --extract --file=atril-1.19.4.tar.xz
 - ls
 - cd atril-1.19.4
