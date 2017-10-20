@@ -17,6 +17,7 @@ addons:
     - libsecret-1-dev
     - libpoppler-glib-dev
     - itstool
+    # libgepub-dev # since Debian 9
     # - gcc-4.9
     # http://wiki.mate-desktop.com/building
     # - 
