@@ -29,7 +29,7 @@ install:
 - ./configure --help
 
 script:
-- ./configure --with-gtk=2.0 --disable-caja && make && make test %% make install
+- ./configure --with-gtk=2.0 --disable-caja && make && make test && make install
 # - env XDG_DATA_DIRS=/tmp/atril/share:/usr/share bin/atril file.pdf
 
 # atril-1.19.4
