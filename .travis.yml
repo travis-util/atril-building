@@ -1,6 +1,8 @@
 language: c
 env:
-  - ATRIL=atril-1.19.0
+- MATE=1.7
+- ATRIL=atril-1.7.90
+# - ATRIL=atril-1.19.0
 addons:
   apt:
     sources:
@@ -14,7 +16,7 @@ addons:
     # http://wiki.mate-desktop.com/building
     # - 
 install:
-- wget http://pub.mate-desktop.org/releases/1.19/$ATRIL.tar.xz
+- wget http://pub.mate-desktop.org/releases/$MATE/$ATRIL.tar.xz
 - tar --xz --extract --file=$ATRIL.tar.xz
 - ls
 - cd $ATRIL
