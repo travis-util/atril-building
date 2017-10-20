@@ -4,7 +4,10 @@ addons:
     sources:
     # - ubuntu-toolchain-r-test
     packages:
+    # as requested by configure
     - intltool
+    - libgtk-3-dev
+    - libgio2.0-cil-dev
     # - gcc-4.9
     # http://wiki.mate-desktop.com/building
     # - 
@@ -13,6 +16,6 @@ install:
 - tar --xz --extract --file=atril-1.19.4.tar.xz
 - ls
 - cd atril-1.19.4
-- apt-cache policy intltool
+- apt-cache policy libgtk-3-dev libgio2.0-cil-dev
 
 # atril-1.19.4
