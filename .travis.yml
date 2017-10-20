@@ -12,7 +12,7 @@ addons:
     - libgtk2.0-dev
     - libgail-dev
     # - libgtk-3-dev
-    - libgio2.0-cil-dev
+    # - libgio2.0-cil-dev # libgio2.0-dev is probably included in libgtk2.0-dev
     - mate-icon-theme
     - libsecret-1-dev
     - libpoppler-glib-dev
@@ -29,7 +29,7 @@ install:
 - ./configure --help
 
 script:
-- ./configure --with-gtk=2.0 --disable-caja && make && make test && make install
+- ./configure --prefix=/tmp --with-gtk=2.0 --disable-caja && make && make test && make install
 # - env XDG_DATA_DIRS=/tmp/atril/share:/usr/share bin/atril file.pdf
 
 # atril-1.19.4
