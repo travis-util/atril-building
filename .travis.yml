@@ -36,5 +36,5 @@ script:
 # atril-1.19.4
 # Package requirements (gtk+-3.0 >= 3.14.0 gio-2.0 >= 2.36.0)
 #   Requested 'gtk+-3.0 >= 3.14.0' but version of GTK+ is 3.10.8
-# On Ubuntu 16.03 outside Travis
+# On Ubuntu 16.04 outside Travis
 
