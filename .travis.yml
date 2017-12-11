@@ -29,7 +29,7 @@ addons:
     # -
 matrix:
   allow_failures:
-  - clang:
+  - compiler: clang
 install:
 - wget http://pub.mate-desktop.org/releases/$MATE/$ATRIL.tar.xz
 - tar --xz --extract --file=$ATRIL.tar.xz
