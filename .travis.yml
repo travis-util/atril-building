@@ -1,4 +1,7 @@
 language: c
+compiler:
+- clang
+# - gcc # to reduce # of builds
 env:
 - MATE=1.7 ATRIL=atril-1.7.90
 # - MATE=1.19 ATRIL=atril-1.19.0
