@@ -8,3 +8,4 @@ Building Atril (Mate PDF viewer)
 * https://www.freedesktop.org/software/gstreamer-sdk/data/docs/2012.5/gio/glib-compile-schemas.html
 *  mate-screenshot GLib-GIO-ERROR - schema not installed
  * https://bbs.archlinux.org/viewtopic.php?id=165030
+* [XpdfReader](https://www.xpdfreader.com/download.html)
