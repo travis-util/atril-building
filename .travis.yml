@@ -46,6 +46,8 @@ script:
 # - env XDG_DATA_DIRS=/tmp/atril/share:/usr/share bin/atril file.pdf
 # env XDG_DATA_DIRS=/opt/atril-1.19_poppler-0.62.0/share:/usr/share /opt/atril-1.19_poppler-0.62.0/bin/atril
 
+# https://github.com/mate-desktop/atril/issues/286
+
 # atril-1.19.4
 # Package requirements (gtk+-3.0 >= 3.14.0 gio-2.0 >= 2.36.0)
 #   Requested 'gtk+-3.0 >= 3.14.0' but version of GTK+ is 3.10.8
